@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+::root{
+    background: var(--neutral-silver, #F5F7FA);
+    color: var(--text-gray-900, #18191F);
+    color: var(--neutral-grey, #717171);
+    background: var(--neutral-black, #263238);
+}
+*{
+    font-family: 'Inter', sans-serif;
+}
+li{
+    list-style: none;
+}
+/* Navbar Section */
+.navbar-site{
+    padding: 10px 0;
+}
+.navbar .container .nav-link{
+    color: var(--text-gray-900);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.navbar .container .nav .nav-item .btn-arn{
+    padding: 10px 20px;
+    color: #ffffff;
+    background: #4CAF4F;
+    border-radius: 6px;
+}
+.navbar .container .nav .nav-item .btn-arm{
+    padding: 10px 20px;
+    color: #4CAF4F;
+}
+/* End */
+
+/* Hero Section */
+.hero .container .row .col-6{
+    padding: 160px 0;
+}
+.hero .container .row .col-6 .text-heading h1{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 76px;
+}
+.hero .container .row .col-6 .text-heading h1:nth-child(2){
+    color: #4CAF4F;
+
+}
+.hero .container .row .col-6 .title-text p{
+    color: var(--neutral-grey);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.hero .container .row .col-6 .btn-hero{
+    padding: 10px 20px;
+    color: #ffffff;
+    background: #4CAF4F;
+    border-radius: 6px;
+    width: 18%;
+}
+.hero .container .row .col .gab-left-items img{
+    width: 500px;
+}
+
+.hero .container .row .col .gab-left-items{
+    padding: 120px 0;
+}
+/* End */
+
+/* Client Section */
+.client-sct{
+    padding: 60px 0;
+}
+/* End */
+
+/* Comunity Section */
+.comunity_sect{
+    padding: 120px 0;
+}
+.comunity_sect .card-items{
+    padding: 30px 0;
+}
+.col .card{
+    padding: 24px 58px;
+    border: none;
+}
+.col .card .gab-head-card{
+    padding-bottom: 24px;
+}
+/* End */
+
+/* Helping Section */
+.unlock_sct{
+    padding: 60px 0;
+}
+.unlock_sct .col .title-head h2{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.unlock_sct .col .title-text p{
+    font-size: 14px;
+    color: #717171;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.unlock_sct .col .btn-items{
+    padding: 14px 32px;
+    margin: 32px 0;
+    background-color: #4CAF4F;
+    color: white;
+    
+}
+/* End */
+
+/* Helping Section */
+.helping_sct{
+    min-height: 50vh;
+    background: #F5F7FA;
+    padding: 84px 0;
+}
+.helping_sct .row .col-6 .d-flex .icons_items i{
+    font-size: 28px;
+    color: #4CAF4F;
+}
+.helping_sct .row .col-6 .d-flex .title h5{
+    font-size: 28px;
+    font-weight: 700;
+    color: #263238;
+}
+.helping_sct .row .col-6 .d-flex .title p{
+    margin-top: -10px;
+    color: #717171;
+}
+.helping_sct .row .col-3 .d-flex .icons_items i{
+    font-size: 28px;
+    color: #4CAF4F;
+}
+.helping_sct .row .col-3 .d-flex .title h5{
+    font-size: 28px;
+    font-weight: 700;
+    color: #263238;
+}
+.helping_sct .row .col-3 .d-flex .title p{
+    margin-top: -10px;
+    color: #717171;
+}
+/* End */
+
+/* Marketing Section */
+.marketing_sct{
+    padding: 60px 0;
+}
+.marketing_sct .title-heading-sct{
+    padding: 0 170px;
+}
+.marketing_sct .title-heading-sct h2{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.marketing_sct .title-heading-sct h6{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.marketing_sct .row{
+    padding: 30px 0;
+}
+.marketing_sct .row .col-4 .card{
+    border: none;
+}
+.marketing_sct .row .col-4 .card img{
+    width: 100%;
+}
+.marketing_sct .row .col-4 .card .title-card{
+    padding: 16px;
+    background: #F5F7FA;
+    z-index: 99;
+    margin:-60px 15px 0 15px;
+    border-radius: 6px;
+}
+.marketing_sct .row .col-4 .card .title-card a{
+    text-decoration: none;
+    color: #4CAF4F;
+}
+/* End */
+
+/* Design Section */
+.design_sct{
+    padding: 60px 0;
+}
+.design_sct .row .col-6{
+    padding: 62px 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.design_sct .col-6 .title-head h2{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.design_sct .col-6 .title-text p{
+    font-size: 14px;
+    color: #717171;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.design_sct .col-6 .btn-items{
+    padding: 14px 32px;
+    margin: 32px 0;
+    background-color: #4CAF4F;
+    color: white;
+}
+/* End */
+
+/* Pellentesque Section */
+.pellentesque_sct{
+    background: #F5F7FA;
+    min-height: 50vh;
+    padding: 32px 276px;
+}
+.pellentesque_sct .title-heading-items h1{
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+    padding-bottom: 32px;
+}
+.pellentesque_sct .btn_items{
+    padding: 14px 32px;
+    text-decoration: none;
+    background: #4CAF4F;
+    color: #ffffff;
+    border-radius: 4px;
+}
+
+/* Footer Section */
+.footer_sct{
+    min-height: 50vh;
+    background: #263238;
+    padding: 64px 0;
+    color: #ffffff;
+}
+.footer_sct .row .col-6 {
+    padding: 0 250px 0 0;
+}
+.footer_sct .row .col-6 .text_ft{
+    padding: 40px 0;
+}
+.footer_sct .row .col-6 .icons_items_ft i{
+    padding: 7.47px;
+    background: #515B60;
+    border-radius: 50px;
+}
+.footer_sct .row .col li{
+    padding: 7px 0;
+}
+.footer_sct .row .col li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.footer_sct .row .col input{
+    border-radius: 8px;
+    opacity: 0.2;
+    padding: 9px  90px 11px 12px;
+    font-size: 12px;
+    border: none;
+}
+/* End */
+
+/* Resvonsive Mobile */
+@media (max-width: 600px) {
+/* Hero Section */
+.hero .container .row .col-6{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    padding: 40px 20px;
+}
+.hero .container .row .col-6 .text-heading h1{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+.hero .container .row .col-6 .text-heading h1:nth-child(2){
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600px;
+    color: #4CAF4F;
+
+}
+.hero .container .row .col-6 .title-text p{
+    color: var(--neutral-grey);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.hero .container .row .col-6 .btn-hero{
+    padding: 10px 20px;
+    color: #ffffff;
+    background: #4CAF4F;
+    border-radius: 6px;
+    width: 35%;
+}
+.hero .container .row .col .gab-left-items img{
+    margin-top: -20px;
+    width: 100%;
+}
+
+.hero .container .row .col .gab-left-items{
+    padding: 0;
+}
+/* End */
+
+/* Section Client */
+.client-sct{
+    padding: 30px 20px;
+}
+.client-sct .row .col-12 .title-heading h1{
+    font-size: 35px;
+    font-family: 800px;
+}
+.client-sct .row .col-12 .title-heading p{
+    font-size: 12px;
+}
+/* End */
+
+/* Comunity Section */
+.comunity_sect{
+    padding: 60px 0;
+}
+.comunity_sect .col-12 h1{
+    font-size: 35px;
+}
+.comunity_sect .col-12 p{
+    font-size: 12px;
+}
+.comunity_sect .card-items{
+    padding: 15px 0;
+}
+.col .card{
+    padding: 24px 58px;
+    border: none;
+}
+.col .card .gab-head-card{
+    padding-bottom: 24px;
+}
+/* End */
+
+/* Helping Section */
+.unlock_sct{
+    padding: 60px 20px;
+}
+.unlock_sct .row {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.unlock_sct .col .img_ast_sct_item img{
+    width: 100%;
+}
+.unlock_sct .col .title-head h2{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.unlock_sct .col .title-text p{
+    font-size: 12px;
+    color: #717171;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.unlock_sct .col .btn-items{
+    padding: 7px 16px;
+    margin: 16px 0;
+    background-color: #4CAF4F;
+    color: white;
+    
+}
+/* End */
+
+/* Helping Section */
+.helping_sct{
+    min-height: 50vh;
+    background: #F5F7FA;
+    padding: 84px 0;
+}
+.helping_sct .row{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    padding: 0 20px;
+}
+.helping_sct .row .col-6 .d-flex .icons_items i{
+    font-size: 14px;
+    color: #4CAF4F;
+}
+.helping_sct .row .col-6 .d-flex .title h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: #263238;
+}
+.helping_sct .row .col-6 .d-flex .title p{
+    margin-top: -10px;
+    color: #717171;
+    font-size: 12px;
+}
+.helping_sct .row .col-3 .d-flex .icons_items i{
+    font-size: 14px;
+    color: #4CAF4F;
+}
+.helping_sct .row .col-3 .d-flex .title h5{
+    font-size: 14px;
+    font-weight: 700;
+    color: #263238;
+}
+.helping_sct .row .col-3 .d-flex .title p{
+    margin-top: -10px;
+    color: #717171;
+}
+/* End */
+/* Design Section */
+.design_sct{
+    padding: 60px 0;
+}
+.design_sct .row{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.design_sct .row .col .gab_design_items img{
+    width: 100%;
+}
+.design_sct .row .col-6{
+    width: 100%;
+    padding: 10px 20px;
+}
+.design_sct .col-6 .title-head h2{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.design_sct .col-6 .title-text p{
+    font-size: 12px;
+    color: #717171;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.design_sct .col-6 .btn-items{
+    padding: 7px 14px;
+    margin: 32px 0;
+    background-color: #4CAF4F;
+    color: white;
+}
+/* End */
+
+/* Marketing Section */
+.marketing_sct{
+    padding: 60px 20px;
+}
+.marketing_sct .row{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.marketing_sct .row .col-4{
+    width: 100%;
+}
+.marketing_sct .title-heading-sct{
+    padding: 0;
+}
+.marketing_sct .title-heading-sct h2{
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px;
+}
+.marketing_sct .title-heading-sct h6{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.marketing_sct .row{
+    padding: 30px 0;
+}
+.marketing_sct .row .col-4 .card{
+    border: none;
+}
+.marketing_sct .row .col-4 .card img{
+    width: 100%;
+}
+.marketing_sct .row .col-4 .card .title-card h5{
+    font-size: 15px;
+}
+.marketing_sct .row .col-4 .card .title-card{
+    padding: 16px;
+    background: #F5F7FA;
+    z-index: 99;
+    margin:-60px 15px 20px 15px;
+    border-radius: 6px;
+}
+.marketing_sct .row .col-4 .card .title-card a{
+    text-decoration: none;
+    color: #4CAF4F;
+    font-size: 12px;
+}
+/* End */
+/* Pellentesque Section */
+.pellentesque_sct{
+    background: #F5F7FA;
+    min-height: 50vh;
+    padding: 32px 0;
+}
+.pellentesque_sct .title-heading-items h1{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    padding-bottom: 32px;
+}
+.pellentesque_sct .btn_items{
+    padding: 7px 14px;
+    text-decoration: none;
+    background: #4CAF4F;
+    color: #ffffff;
+    font-size: 12px;
+    border-radius: 4px;
+}
+/* End */
+/* Footer Section */
+.footer_sct{
+    min-height: 50vh;
+    background: #263238;
+    padding: 64px 20px;
+    color: #ffffff;
+}
+.footer_sct .row{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.footer_sct .row .col-6 {
+    width: auto;
+    padding: 20px 0;
+}
+.footer_sct .row .col-6 .text_ft h6{
+    font-size: 12px;
+    padding: 0px 0;
+}
+.footer_sct .row .col-6 .icons_items_ft i{
+    padding: 7.47px;
+    background: #515B60;
+    border-radius: 50px;
+}
+.footer_sct .row .col{
+    padding: 20px 0;
+}
+.footer_sct .row .col li{
+    padding: 7px 0;
+}
+.footer_sct .row .col li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.footer_sct .row .col input{
+    border-radius: 8px;
+    opacity: 0.2;
+    padding: 9px  90px 11px 12px;
+    font-size: 12px;
+    border: none;
+}
+/* End */
+}
